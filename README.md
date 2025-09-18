@@ -1,3 +1,5 @@
+![LinkedIn Post Muter](assets/image.jpg)
+
 # LinkedIn Post Muter
 
 Hides LinkedIn posts that match selected keywords. Runs entirely client‑side as a Chrome extension.
