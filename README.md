@@ -9,7 +9,7 @@ By using this code, you acknowledge and agree that:
 
     - You are solely responsible for how you choose to use this software.
 
-    - The author(s) of this project assume no responsibility or liability for any      account restrictions, bans, or other consequences resulting from its use.
+    - The author(s) of this project assume no responsibility or liability for any account restrictions, bans, or other consequences resulting from its use.
     
     - This tool is intended as an example of browser extension development and not as an endorsement of violating LinkedIn’s policies.
 
