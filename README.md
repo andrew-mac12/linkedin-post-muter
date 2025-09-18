@@ -5,6 +5,14 @@ Hides LinkedIn posts that match selected keywords. Runs entirely client‑side a
 Disclaimer
 This project is provided for educational and personal use only. Use of automation on LinkedIn may violate LinkedIn’s Terms of Service, which explicitly prohibit automated scraping, crawling, or interactions with their site without prior permission.
 
+By using this code, you acknowledge and agree that:
+
+    - You are solely responsible for how you choose to use this software.
+
+    - The author(s) of this project assume no responsibility or liability for any      account restrictions, bans, or other consequences resulting from its use.
+    
+    - This tool is intended as an example of browser extension development and not as an endorsement of violating LinkedIn’s policies.
+
 ## Install (Load Unpacked)
 
 1. Open `chrome://extensions`.
