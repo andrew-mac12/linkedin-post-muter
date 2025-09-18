@@ -2,6 +2,9 @@
 
 Hides LinkedIn posts that match selected keywords. Runs entirely client‑side as a Chrome extension.
 
+Disclaimer
+This project is provided for educational and personal use only. Use of automation on LinkedIn may violate LinkedIn’s Terms of Service, which explicitly prohibit automated scraping, crawling, or interactions with their site without prior permission.
+
 ## Install (Load Unpacked)
 
 1. Open `chrome://extensions`.
