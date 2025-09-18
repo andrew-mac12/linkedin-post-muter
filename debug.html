@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <style>
+      body { font: 14px system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial; padding: 12px 14px; width: 360px; }
+      h2 { margin: 12px 0 6px; font-size: 14px; }
+      ul { padding-left: 18px; max-height: 200px; overflow: auto; }
+      .row { display:flex; gap:8px; align-items:center; }
+      button { padding: 4px 8px; }
+    </style>
+  </head>
+  <body>
+    <!-- Keep navigation+clear-all at the top for quick iteration during testing -->
+    <div class="row">
+      <button id="back">← Back</button>
+      <div style="flex:1"></div>
+      <button id="clearAll">Clear all</button>
+    </div>
+
+    <!-- Debug toggles affect logging/behavior globally; colocate them here -->
+    <div class="row" style="margin-top:8px">
+      <label class="row" style="gap:6px">
+        <input type="checkbox" id="debugEnabled">
+        Enable debug logging
+      </label>
+    </div>
+
+    <div class="row" style="margin-top:6px">
+      <label class="row" style="gap:6px">
+        <input type="checkbox" id="dryRun">
+        Dry-run (detect only, no clicks)
+      </label>
+    </div>
+
+    <div class="row" style="margin-top:6px">
+      <label class="row" style="gap:6px">
+        <span>Max hides per feed load</span>
+        <input id="maxHidesPerLoad" type="number" min="1" placeholder="no limit" style="width:80px">
+      </label>
+    </div>
+
+    <!-- Show a quick sense of activity without opening logs -->
+    <h2>Hidden this session: <span id="sessionCount">0</span></h2>
+
+    <h2>Detections</h2>
+    <ul id="detectedLog"></ul>
+    <div class="row"><button id="clearDetected">Clear detections</button></div>
+
+    <h2>Hidden</h2>
+    <ul id="hiddenLog"></ul>
+    <div class="row"><button id="clearHidden">Clear hidden</button></div>
+
+    <h2>Roots seen</h2>
+    <ul id="rootsSeen"></ul>
+    <div class="row"><button id="clearRoots">Clear roots</button></div>
+
+    <!-- Feed Debug is a lightweight console of route lifecycle and scans -->
+    <h2>Feed Debug</h2>
+    <ul id="debugLog"></ul>
+    <div class="row"><button id="clearDebug">Clear Feed Debug</button></div>
+
+    <script src="debug.js"></script>
+  </body>
+  </html>
+
+
